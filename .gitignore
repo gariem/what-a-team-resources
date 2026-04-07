@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Unused screenshots — Android captures stay local for now (the public site shows iOS only).
+# Remove this line if you ever want to publish Android screenshots too.
+captures/android/
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler / Ruby
+.bundle/
+vendor/
+
+# Editor and IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+.history/
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
