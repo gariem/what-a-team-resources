@@ -21,10 +21,10 @@ Have an idea to make What A Team better? [Submit a feature request](https://gith
 Yes. What A Team is completely free with no in-app purchases, no ads, and no subscriptions.
 
 ### How do I create a team?
-Sign up with email, Google, or Apple, then tap "Create a Team" on the welcome screen. Pick a name, an emoji, your team's core values, and a season length. You'll get a 6-character invite code to share with your teammates.
+Sign in with Apple or Google, then tap "Create a Team" on the welcome screen. Pick a name, an emoji, your team's core values, and a season length. You'll get a 6-character invite code to share with your teammates.
 
 ### How do my teammates join?
-Share your team's 6-character invite code with them. They install the app, sign up, tap "Join a Team", and enter the code.
+Share your team's 6-character invite code with them. They install the app, sign in, tap "Join a Team", and enter the code.
 
 ### How many people can be in a team?
 The app is designed for small teams of 2 to 20 people. There's no hard limit, but the experience is optimized for groups where everyone knows everyone.
@@ -42,7 +42,7 @@ They stay in the activity feed and history. The value just becomes unavailable f
 Yes. Tap the pencil icon next to your name on the Profile tab. To prevent abuse, names can only be changed once per week.
 
 ### What data does the app collect?
-Only what's needed to make the app work: your name, email, and the High Fives you send/receive within your team. No analytics, no tracking, no ads, no third-party data sharing. See the [Privacy Policy](privacy) for full details.
+Only what's needed to make the app work: your display name (from Apple or Google), your team membership, and the High Fives you send and receive within your team. Your email stays in Apple/Google's sign-in system and is not stored in our database. No analytics, no tracking, no ads, no third-party data sharing. See the [Privacy Policy](privacy) for full details.
 
 ### Does the app work on tablets?
 The app is designed for phones, but it runs on iPad and Android tablets too — just in a phone-sized layout. A dedicated tablet experience may come in a future update.

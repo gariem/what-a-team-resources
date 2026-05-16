@@ -43,7 +43,7 @@ Se mantienen en el feed de actividad y el historial. El valor simplemente deja d
 Sí. Toca el ícono de lápiz junto a tu nombre en la pestaña de Perfil. Para prevenir abusos, los nombres solo se pueden cambiar una vez por semana.
 
 ### ¿Qué datos recopila la app?
-Solo lo necesario para que funcione: tu nombre, correo electrónico y los High Fives que envías/recibes dentro de tu equipo. Sin analítica, sin rastreo, sin anuncios, sin compartir datos con terceros. Consulta la [Política de Privacidad](privacy) para más detalles.
+Solo lo necesario para que funcione: tu nombre (de Apple o Google), tu pertenencia al equipo y los High Fives que envías y recibes dentro de tu equipo. Tu correo electrónico permanece en el sistema de inicio de sesión de Apple/Google y no se guarda en nuestra base de datos. Sin analítica, sin rastreo, sin anuncios, sin compartir datos con terceros. Consulta la [Política de Privacidad](privacy) para más detalles.
 
 ### ¿La app funciona en tablets?
 La app está diseñada para teléfonos, pero también funciona en iPad y tablets Android, solo con un diseño adaptado al tamaño del teléfono. Una experiencia dedicada para tablets podría llegar en una actualización futura.

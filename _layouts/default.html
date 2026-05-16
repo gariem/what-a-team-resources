@@ -197,10 +197,6 @@
     </div>
   </nav>
 
-  <div style="background:rgba(251,191,36,0.1);border-bottom:1px solid rgba(251,191,36,0.25);padding:10px 24px;text-align:center;font-size:0.82rem;color:var(--amber)">
-    This site is under construction. Content may be incomplete or inaccurate.
-  </div>
-
   <main>
     <div class="container">
       {{ content }}
@@ -211,6 +207,7 @@
     <div class="container">
       <div class="footer-links">
         <a href="{{ site.baseurl }}/privacy/">Privacy Policy{% if lang != 'en' %} (English){% endif %}</a>
+        <a href="{{ site.baseurl }}/terms/">Terms of Service{% if lang != 'en' %} (English){% endif %}</a>
         <a href="{{ site.baseurl }}/child-safety/">Child Safety{% if lang != 'en' %} (English){% endif %}</a>
         <a href="{{ lp | append: 'support' | prepend: site.baseurl | append: '/' }}">{% if lang == 'es' %}Soporte{% elsif lang == 'de' %}Support{% else %}Support{% endif %}</a>
         {% if lang == 'de' %}<a href="{{ site.baseurl }}/impressum/">Impressum</a>{% endif %}

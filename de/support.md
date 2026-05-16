@@ -43,7 +43,7 @@ Sie bleiben im Aktivitaets-Feed und Verlauf erhalten. Der Wert ist nur fuer zuku
 Ja. Tippe auf das Stift-Symbol neben deinem Namen im Profil-Tab. Um Missbrauch zu verhindern, kann der Name nur einmal pro Woche geaendert werden.
 
 ### Welche Daten erhebt die App?
-Nur das Noetigste: deinen Namen, deine E-Mail-Adresse und die High Fives, die du innerhalb deines Teams sendest/empfaengst. Keine Analytik, kein Tracking, keine Werbung, keine Datenweitergabe an Dritte. Alle Details findest du in der [Datenschutzerklaerung](privacy).
+Nur das Noetigste: deinen Anzeigenamen (von Apple oder Google), deine Teammitgliedschaft und die High Fives, die du innerhalb deines Teams sendest und empfaengst. Deine E-Mail-Adresse bleibt im Anmeldesystem von Apple/Google und wird nicht in unserer Datenbank gespeichert. Keine Analytik, kein Tracking, keine Werbung, keine Datenweitergabe an Dritte. Alle Details findest du in der [Datenschutzerklaerung](privacy).
 
 ### Funktioniert die App auf Tablets?
 Die App ist fuer Telefone konzipiert, laeuft aber auch auf iPad und Android-Tablets — nur im Telefon-Layout. Eine eigene Tablet-Erfahrung koennte in einem zukuenftigen Update kommen.
