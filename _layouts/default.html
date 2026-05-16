@@ -190,10 +190,10 @@
 <body>
 
   <nav>
-    <a href="{{ lp | prepend: site.baseurl | append: '/' }}" class="nav-brand">What A Team</a>
+    <a href="{{ site.baseurl }}/{{ lp }}" class="nav-brand">What A Team</a>
     <div class="nav-links">
-      <a href="{{ lp | prepend: site.baseurl | append: '/' }}">{% if lang == 'es' %}Inicio{% elsif lang == 'de' %}Start{% else %}Home{% endif %}</a>
-      <a href="{{ lp | append: 'support' | prepend: site.baseurl | append: '/' }}">{% if lang == 'es' %}Soporte{% elsif lang == 'de' %}Support{% else %}Support{% endif %}</a>
+      <a href="{{ site.baseurl }}/{{ lp }}">{% if lang == 'es' %}Inicio{% elsif lang == 'de' %}Start{% else %}Home{% endif %}</a>
+      <a href="{{ site.baseurl }}/{{ lp }}support/">{% if lang == 'es' %}Soporte{% elsif lang == 'de' %}Support{% else %}Support{% endif %}</a>
     </div>
   </nav>
 
@@ -209,7 +209,7 @@
         <a href="{{ site.baseurl }}/privacy/">Privacy Policy{% if lang != 'en' %} (English){% endif %}</a>
         <a href="{{ site.baseurl }}/terms/">Terms of Service{% if lang != 'en' %} (English){% endif %}</a>
         <a href="{{ site.baseurl }}/child-safety/">Child Safety{% if lang != 'en' %} (English){% endif %}</a>
-        <a href="{{ lp | append: 'support' | prepend: site.baseurl | append: '/' }}">{% if lang == 'es' %}Soporte{% elsif lang == 'de' %}Support{% else %}Support{% endif %}</a>
+        <a href="{{ site.baseurl }}/{{ lp }}support/">{% if lang == 'es' %}Soporte{% elsif lang == 'de' %}Support{% else %}Support{% endif %}</a>
         {% if lang == 'de' %}<a href="{{ site.baseurl }}/impressum/">Impressum</a>{% endif %}
         {% if lang == 'en' %}<a href="{{ site.baseurl }}/impressum/">Impressum</a>{% endif %}
         <a href="https://github.com/gariem/what-a-team-resources/issues">{% if lang == 'es' %}Reportar un problema{% elsif lang == 'de' %}Problem melden{% else %}Report an Issue{% endif %}</a>

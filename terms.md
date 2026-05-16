@@ -6,7 +6,7 @@ english_only: true
 
 # Terms of Service
 
-**Effective date:** May 16, 2026
+**Effective date:** May 17, 2026
 
 These Terms of Service ("Terms") govern your use of the **What A Team** mobile application (the "App") provided by **Emilio Rios** ("we", "us", "our"). By creating an account, joining a team, or otherwise using the App, you agree to these Terms. If you do not agree, do not use the App.
 

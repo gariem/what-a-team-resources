@@ -6,7 +6,7 @@ lang: de
 
 # Konto loeschen
 
-**Gueltig ab:** 7. April 2026
+**Gueltig ab:** 17. Mai 2026
 
 Du kannst dein **What A Team**-Konto und alle zugehoerigen Daten jederzeit dauerhaft loeschen. Diese Seite erklaert, wie es geht und was dabei passiert.
 
@@ -36,7 +36,8 @@ Per E-Mail eingereichte Anfragen werden innerhalb von **30 Tagen** bearbeitet. D
 
 Wenn dein Konto geloescht wird, wird Folgendes dauerhaft entfernt:
 
-- Dein **Profil** — Anzeigename, E-Mail, Authentifizierungs-ID und Profil-Zeitstempel
+- Dein **Profil** in unserer Datenbank — Anzeigename, Authentifizierungs-ID und Profil-Zeitstempel
+- Dein **Firebase-Authentication-Datensatz** — der die E-Mail-Adresse enthaelt, mit der du dich ueber Apple oder Google angemeldet hast
 - Deine **Teammitgliedschaft** — du wirst aus allen Teams entfernt, denen du angehoerst
 - **High Fives, die du gesendet und empfangen hast** — einschliesslich Wert, Nachrichtentext, Absender, Empfaenger und Zeitstempel
 - Dein **Benachrichtigungs-Token** — das fuer Push-Benachrichtigungen verwendet wird
@@ -53,4 +54,4 @@ Wir bewahren keine personenbezogenen Daten ueber das unbedingt Notwendige hinaus
 
 ## Fragen
 
-Bei Fragen zur Kontoloeschung kontaktiere uns ueber die Angaben auf der [Impressum](impressum)-Seite oder [erstelle ein Issue auf GitHub](https://github.com/gariem/what-a-team-resources/issues).
+Bei Fragen zur Kontoloeschung kontaktiere uns ueber die Angaben auf der [Impressum](impressum)-Seite.

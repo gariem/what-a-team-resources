@@ -6,9 +6,9 @@ english_only: true
 
 # Privacy Policy
 
-**Effective date:** May 16, 2026
+**Effective date:** May 17, 2026
 
-Emilio Rafael Garcia Rios ("we", "us", "our") built **What A Team** as a free app. This page describes how the app handles information.
+Emilio Rios ("we", "us", "our") built **What A Team** as a free app. This page describes how the app handles information.
 
 ## Information We Collect
 
@@ -44,9 +44,17 @@ Your data is used solely to provide the app's functionality:
 - Show you your team, teammates, and the High Fives you've sent or received
 - Display the activity feed and Team Pulse insights to other members of your team
 - Send push notifications to you when relevant
-- Enforce account safety rules (such as the once-per-week name change limit)
+- Apply usage rules within the App (such as the weekly High Five quota)
 - Diagnose and fix bugs through automatic crash and error reports (see Firebase Crashlytics below)
 - Verify that requests come from a legitimate copy of the app, helping deter abuse (see Firebase App Check below)
+
+## Legal Basis for Processing (EU/UK Users)
+
+If you are based in the EU or the UK, our legal bases for processing your personal data under the GDPR are:
+
+- **Performance of a contract (Art. 6(1)(b) GDPR).** Creating and maintaining your account, your team membership, and the High Fives you send and receive are processed to provide the service you've chosen to use.
+- **Legitimate interests (Art. 6(1)(f) GDPR).** We process crash and error reports through Firebase Crashlytics, and we validate app integrity through Firebase App Check, to maintain a stable and abuse-resistant service. We balance these interests against your privacy and use the minimum data needed.
+- **Consent (Art. 6(1)(a) GDPR).** Push notifications are sent only with your explicit consent (the operating system permission prompt). You can withdraw this consent at any time in your device settings.
 
 ## Where Your Data Lives
 
@@ -62,11 +70,23 @@ Firebase is provided by Google. By using the app, you also accept Google's [Fire
 
 Data is stored in Google's data centers located in the European Union.
 
+## Data Retention
+
+We keep your personal data only for as long as it is needed:
+
+- **Account data, team membership, and High Fives** are kept until you delete your account, leave a team, or the team is deleted. Once removed, they cannot be recovered.
+- **Crash and error reports** (Firebase Crashlytics) are retained for up to 90 days, then deleted automatically.
+- **App Check tokens** are short-lived (typically valid for around an hour) and are not retained beyond their validity window.
+- **Backups** may persist for a short window after deletion as part of normal cloud-database operations, and are overwritten on Firebase's standard backup cycle.
+
+After deletion, anonymized aggregated data may remain in our systems where it cannot be linked back to you.
+
 ## Who Can See Your Data
 
 - **Your teammates** can see your name, the High Fives you've sent and received within the team, and the activity feed.
-- **Team creators** can see all members of the team and the team's activity.
-- **Removed members** lose access to the team's data.
+- **Team creators** can additionally edit team settings (name, emoji, values, season dates, weekly High Five limit) and remove members. They do not see anything more than a regular member can see.
+- **Any signed-in user of the App** can look up your display name by your user identifier — this is how the App resolves member names across invitations and lookups. Your email address is not exposed this way (it stays in Firebase Authentication).
+- **Removed members** immediately lose access to the team's data.
 - **We (the developer) do not access individual user data** except as strictly necessary to maintain the service or to comply with legal obligations.
 - **No data is shared with third parties** other than the Firebase services described above.
 
@@ -79,6 +99,10 @@ To the best of our knowledge, the app does not:
 - Access location, contacts, photos, camera, or microphone
 - Sell or share your data with marketing partners
 
+## Children's Privacy
+
+What A Team is intended for users aged **13 and older** (or the higher minimum age that applies in your jurisdiction). We do not knowingly collect personal data from children under that age. If you believe a child has provided personal data through the app, please contact us using the details on the [Impressum](impressum) page and we will delete it. See also our [Child Safety Standards](child-safety).
+
 ## Your Rights
 
 You have the right to:
@@ -90,6 +114,8 @@ You have the right to:
 
 If you are based in the EU, the UK, or another jurisdiction with applicable data protection laws, you may have additional rights under those laws (such as GDPR rights to access, rectification, erasure, restriction, portability, and objection). To exercise any of these rights, contact us using the details on the [Impressum](impressum) page.
 
+**Right to lodge a complaint.** If you are based in the EU and believe we have not handled your personal data lawfully, you have the right to lodge a complaint with a data protection supervisory authority. In Germany, the competent authority for our operations is the **Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen** (LDI NRW) — [ldi.nrw.de](https://www.ldi.nrw.de/).
+
 ## Third-Party Services
 
 The app uses the following third-party services. Each has its own privacy policy:
@@ -100,14 +126,10 @@ The app uses the following third-party services. Each has its own privacy policy
 - **Apple App Attest** (iOS only) — Used by Firebase App Check to verify the App is genuine. Apple's privacy practices for App Attest are described in their [Privacy Policy](https://www.apple.com/legal/privacy/).
 - **Google Play Integrity** (Android only) — Used by Firebase App Check to verify the App is genuine. [Privacy information](https://policies.google.com/privacy).
 
-## Disclaimer
-
-What A Team is provided "as is" and "as available", without warranty of any kind, express or implied. We do not warrant that the app will be error-free, secure, or uninterrupted. To the fullest extent permitted by applicable law, we disclaim all liability for any damages arising from your use of or inability to use the app. Use of the app is at your own risk.
-
 ## Changes to This Policy
 
 We may update this privacy policy from time to time. Changes will be posted on this page with an updated effective date.
 
 ## Contact
 
-If you have questions about this privacy policy, you can reach us via the contact details on the [Impressum](impressum) page or by [opening an issue on GitHub](https://github.com/gariem/what-a-team-resources/issues).
+If you have questions about this privacy policy, you can reach us via the contact details on the [Impressum](impressum) page.

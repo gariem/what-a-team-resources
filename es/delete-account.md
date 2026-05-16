@@ -6,7 +6,7 @@ lang: es
 
 # Eliminar tu cuenta
 
-**Fecha de entrada en vigor:** 7 de abril de 2026
+**Fecha de entrada en vigor:** 17 de mayo de 2026
 
 Puedes eliminar permanentemente tu cuenta de **What A Team** y todos los datos asociados en cualquier momento. Esta página explica cómo hacerlo y qué sucede cuando lo haces.
 
@@ -36,7 +36,8 @@ Las solicitudes enviadas por correo electrónico se procesan en un plazo de **30
 
 Cuando se elimina tu cuenta, se elimina permanentemente lo siguiente:
 
-- Tu **perfil** — nombre para mostrar, correo electrónico, identificador de autenticación y marcas de tiempo del perfil
+- Tu **perfil** en nuestra base de datos — nombre para mostrar, identificador de autenticación y marcas de tiempo del perfil
+- Tu **registro en Firebase Authentication** — que contiene la dirección de correo electrónico con la que iniciaste sesión a través de Apple o Google
 - Tu **membresía de equipo** — se te elimina de cualquier equipo al que pertenezcas
 - **Los High Fives que enviaste y recibiste** — incluyendo el valor, el texto del mensaje, remitente, destinatario y marcas de tiempo
 - Tu **token de notificación** — utilizado para enviar notificaciones push
@@ -53,4 +54,4 @@ No conservamos datos personales más allá de lo estrictamente necesario.
 
 ## Preguntas
 
-Para cualquier pregunta sobre la eliminación de cuenta, contáctanos a través de los datos de la página de [Impressum](impressum) o [abre un issue en GitHub](https://github.com/gariem/what-a-team-resources/issues).
+Para cualquier pregunta sobre la eliminación de cuenta, contáctanos a través de los datos de la página de [Impressum](impressum).

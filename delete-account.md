@@ -5,7 +5,7 @@ title: Delete Your Account
 
 # Delete Your Account
 
-**Effective date:** April 7, 2026
+**Effective date:** May 17, 2026
 
 You can permanently delete your **What A Team** account and all associated data at any time. This page explains how to do it and what happens when you do.
 
@@ -35,7 +35,8 @@ Requests submitted by email are processed within **30 days**. You will receive a
 
 When your account is deleted, the following is permanently removed:
 
-- Your **profile** — display name, email, authentication identifier, and profile timestamps
+- Your **profile** in our database — display name, authentication identifier, and profile timestamps
+- Your **Firebase Authentication record** — which holds the email address you signed in with via Apple or Google
 - Your **team membership** — you are removed from any team you belong to
 - **High Fives you've sent and received** — including the value, message text, sender, recipient, and timestamps
 - Your **notification token** — used to deliver push notifications
@@ -52,4 +53,4 @@ We do not retain personal data beyond what is strictly necessary.
 
 ## Questions
 
-For any questions about account deletion, contact us using the details on the [Impressum](impressum) page or [open an issue on GitHub](https://github.com/gariem/what-a-team-resources/issues).
+For any questions about account deletion, contact us using the details on the [Impressum](impressum) page.
